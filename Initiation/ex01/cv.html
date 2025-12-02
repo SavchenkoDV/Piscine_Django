@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dmitrii Savchenko - Resume</title>
+
+    <!-- FIRST styling instruction: global styles inside <style> -->
+    <style>
+        body {
+            font-family: Times New Roman;
+            padding: 30px;
+            background: gainsboro;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        h1,
+        h2 {
+            margin-top: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            /* required */
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            /* visible borders */
+            padding: 5px;
+        }
+
+        th {
+            background: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+
+        <!-- h1 title -->
+        <h1>Dmitrii Savchenko</h1>
+
+        <p>
+            Courbevoie, France | Open to remote & relocation<br>
+            Languages: English - Russian - French (A1)<br>
+            Work authorization: EU/EEA/Switzerland (Directive 2004/38/EC & AFMP)<br>
+            Phone: +33 7 45 11 44 65 | Email: dsavchenko.career@gmail.com
+        </p>
+
+        <h2>Summary</h2>
+        <p>
+            Infrastructure-minded Software Engineer focused on automation, reliability and performance.
+            Experienced building services, pipelines, controllers, and tooling to eliminate manual work and
+            accelerate delivery. Passionate about systems programming, optimization, and scalable infra.
+        </p>
+
+        <h2>Skills</h2>
+
+        <!-- unordered list required -->
+        <ul>
+            <li>Languages: Python, C/C++, Groovy, Go (working knowledge), Bash</li>
+            <li>Tools: Jenkins, Kubernetes, Docker, Argo CD, Git, Linux </li>
+            <li>Cloud & Infra: AWS (EC2, S3, IAM), Nginx, MariaDB</li>
+            <li>Exposure: Terraform, Ansible, Vault, Hadoop (HDFS/Kafka/Hive)</li>
+            <li>REST APIs: Jira, Nexus, Bitbucket, HP Performance Center, Zabbix</li>
+        </ul>
+
+        <h2>Career Path</h2>
+
+        <!-- ordered list required -->
+        <ol>
+            <li>Software Engineer - VEON/Beeline (2022-2023) </li>
+            <ul>
+                <li>Developed and maintained a CI/CD pipeline for the Beeline project</li>
+                <li>Implemented a new feature for the Beeline project</li>
+                <li>Debugged and fixed a bug in the Beeline project</li>
+            </ul>
+            <li>Software Engineer - Sberbank (2021-2022) </li>
+            <ul>
+                <li>Developed and maintained a CI/CD pipeline for the Sberbank project</li>
+                <li>Implemented a new feature for the Sberbank project</li>
+                <li>Debugged and fixed a bug in the Sberbank project</li>
+            </ul>
+        </ol>
+
+        <h2>Projects Table</h2>
+
+        <table>
+            <tr>
+                <th>Name of the project</th>
+                <th>Description</th>
+                <th>Company</th>
+            </tr>
+
+            <tr>
+                <td>Inception of Things</td>
+                <td>Deployed Kubernetes cluster</td>
+                <td>École 42</td>
+            </tr>
+
+            <tr>
+                <td>Python for Machine Learning</td>
+                <td>Built a machine learning model</td>
+                <td>State Professional Education Center</td>
+            </tr>
+
+            <tr>
+                <td>Cub3D</td>
+                <td>Developed a basic 3D engine in C</td>
+                <!-- SECOND styling instruction: inline style attribute -->
+                <td style="border: 2px solid #424242;">École 42</td>
+            </tr>
+        </table>
+
+    </main>
+
+</body>
+
+</html>
